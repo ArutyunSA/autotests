@@ -77,7 +77,7 @@ class ContractsPage:
         input_element.send_keys(Keys.CONTROL, 'a')
         input_element.send_keys(Keys.DELETE)
 
-    #Функция для очистки поля
+    #Функция для имитации очистки поля длительным нажатием клавиши DELETE
     def clear_delete(self, element):
         input_element = self.browser.find_element(*element)
         input_element.send_keys(Keys.BACK_SPACE * 50)
