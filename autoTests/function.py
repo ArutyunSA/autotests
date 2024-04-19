@@ -4,6 +4,7 @@ import pytest
 import testit
 from path import *
 from coloram import *
+from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
@@ -76,6 +77,11 @@ class ContractsPage:
         input_element.send_keys(Keys.CONTROL, 'a')
         input_element.send_keys(Keys.DELETE)
 
+    #Функция для очистки поля
+    def clear_delete(self, element):
+        input_element = self.browser.find_element(*element)
+        input_element.send_keys(Keys.BACK_SPACE * 50)
+
     #Функция для ввода текста в поле где text это текст который мы вводим
     def send_keys(self, element, text):
         input_element = self.browser.find_element(*element)
@@ -140,7 +146,7 @@ class ContractsPage:
             if input.text == day:
                 input.click()
                 found_day = True
-                true_step('ОР: Поле заполнено')
+                true_step('ОР: Поле заполнено датой из календаря')
                 break
 
         if not found_day:

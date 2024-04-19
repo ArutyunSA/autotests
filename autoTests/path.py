@@ -211,3 +211,21 @@ FD_phone = (By.XPATH, '//*[@id="appointmentRecipeForm"]/div/div/div/mat-card/for
 
     #Локатор поля "Дата выписки"
 FD_date = (By.XPATH, '//*[@id="appointmentRecipeForm"]/div/div/div/mat-card/form/div[6]/div[2]/date-time/div/div/st-date/mat-form-field/div/div[1]/div[1]/input')
+
+    #Локатор кнопки календаря поля "Дата выписки"
+BT_date = (By.CSS_SELECTOR, '.mat-form-field-suffix.ng-tns-c11-47.ng-star-inserted')
+
+    #Локатор обязательности поля "Дата выписки"
+OB_date = (By.CSS_SELECTOR, '.mat-form-field-ripple.ng-tns-c11-47')
+
+    #Локатор кнопки числа даты начала в календаре (Выбор числа в календаре, указав value = 12 например)
+CL_date = (By.CSS_SELECTOR, '.mat-calendar-body-cell-content.mat-focus-indicator')
+
+    #Локатоп поля "Врач"
+FD_doctor_recipe = (By.XPATH, '//*[@id="mat-input-33"]')
+
+    #Локатор обязательности поля "Врач"
+OB_doctor_recipe = (By.XPATH, '//*[@id="appointmentRecipeForm"]/div/div/div/mat-card/form/div[7]/div[1]/st-autocomplete/mat-form-field/div/div[2]/span')
+
+    #Локатор крестика очистки поля "Врач"
+BT_clear_doctor_recipe = (By.CSS_SELECTOR, '.mat-form-field-suffix.ng-tns-c11-45.ng-star-inserted > div > button')

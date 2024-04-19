@@ -1637,6 +1637,199 @@ def test_23_cases_602():
         false_step('Ошибка: Отсутствует уведомление об ошибке сохранения назначения или поле детализация не подсвечено красным')
 
 
+#==========================test-cases/592 Заполнение полей рецепта. Валидация поля "Врач"===============================
+def test_24_cases_592():
+    case_name('Заполнение полей рецепта. Валидация поля "Врач"')
+    #Перехожу по ссылке в ТАП
+    browser.get(url_TAP)
+    browser.implicitly_wait(20)
+    f = ContractsPage(browser)
+
+    step('Шаг 1: Выбрать назначение из списка или создать новое')
+    test_1_cases_create_purpose()
+    true_step('ОР: - Назначение выбрано/Создано')
+    if f.enabled(BT_add_recipe):
+        true_step('    - Кнопка "Добавить" в блоке "Рецепты" стала доступна')
+    else:
+        false_step('Ошибка: Кнопка добавить в блоке "Рецепты" недоступна')
+
+    step('Шаг 2: Нажать на кнопку "Добавить" в блоке "Рецепты"')
+    f.click_element(BT_add_recipe)
+    time.sleep(3)
+    if f.enabled(FM_recipe):
+        true_step('ОР: Открылась форма создания рецептов')
+    else:
+        false_step('Ошибка: Форма создания рецепта недоступна')
+
+    step('Шаг 3: Выбрать чек-бокс "Коммерческий"')
+    f.click_element(CH_comm)
+    time.sleep(2)
+    if f.enabled(CH_comm):
+        true_step('ОР: Чек-бокс выбран')
+    else:
+        false_step('Ошибка: Чек- бокс не выбран')
+
+    step('Шаг 4: Проверить, что поле "Врач" заполнено автоматически текущим врачом')
+    name = '2372 - Гиппократ Ирина Константиновна'
+    if f.atribut(FD_doctor_recipe) == name:
+        true_step('ОР: Поле заполнено автоматически')
+    else:
+        false_step('Ошибка: Поле не заполнено или заполнено некорректно')
+
+    step('Шаг 5: Очистить поле "Врач" с клавиатуры')
+    f.clear_element(FD_doctor_recipe)
+    f.tab(FD_doctor_recipe)
+    time.sleep(1)
+    if f.atribut(FD_doctor_recipe) == '' and f.backColor(OB_doctor_recipe) == 'rgba(255, 82, 82, 1)':
+        true_step('ОР: Поле очищено и подсвечено красным, как обязательное для заполнения')
+    else:
+        false_step('Ошибка: Поле не очищено или нет обязательности')
+
+    step('Шаг 6: Начать заполнять поле существующим в списке значением с клавиатуры')
+    f.send_keys(FD_doctor_recipe, name)
+    time.sleep(1)
+    if f.atribut(FD_doctor_recipe) == name and f.text(LT) == name:
+        true_step('ОР: - Поле заполнено')
+        true_step('    - Происходит фильтрация значений в выпадающем списке')
+        true_step('    - Отображается найденное значение')
+    else:
+        false_step('Ошибка: Поле не заполнено или фильтрация происходит некорректно')
+
+    step('Шаг 7: Очистить поле "Врач" нажатием на крестик')
+    f.click_element(BT_clear_doctor_recipe)
+    f.tab(FD_doctor_recipe)
+    time.sleep(2)
+    if f.atribut(FD_doctor_recipe) == '' and f.backColor(OB_doctor_recipe) == 'rgba(255, 82, 82, 1)':
+        true_step('ОР: Поле очищено и подсвечено красным')
+    else:
+        false_step('Ошибка: Поле не очистилось или нет обязательности')
+
+    step('Шаг 8: Ввести в поле невалидное значение и кликнуть в пустом месте формы')
+    f.send_keys(FD_doctor_recipe, 'Невалидное значение')
+    time.sleep(1)
+    if f.text(LT) == 'Совпадений не найдено':
+        f.tab(FD_doctor_recipe)
+        time.sleep(2)
+    else:
+        false_step('Ошибка: Фильтрация происходит некорректно')
+    if f.atribut(FD_doctor_recipe) == '' and f.backColor(OB_doctor_recipe) == 'rgba(255, 82, 82, 1)':
+        true_step('ОР: -В выпадающем списке отображается "Совпадений не найдено"')
+        true_step('    - После клика поле очищено и подсвечено красным')
+    else:
+        false_step('Ошибка: Поле не очистилось или очистилось некорректно')
+
+
+
+#==========================test-cases/593 Заполнение полей рецепта. Валидация поля "Дата выписки"===============================
+def test_25_cases_592():
+    case_name('Заполнение полей рецепта. Валидация поля "Дата выписки"')
+    #Перехожу по ссылке в ТАП
+    browser.get(url_TAP)
+    browser.implicitly_wait(20)
+    f = ContractsPage(browser)
+
+    step('Шаг 1: Выбрать назначение из списка или создать новое')
+    test_1_cases_create_purpose()
+    true_step('ОР: - Назначение выбрано/Создано')
+    if f.enabled(BT_add_recipe):
+        true_step('    - Кнопка "Добавить" в блоке "Рецепты" стала доступна')
+    else:
+        false_step('Ошибка: Кнопка добавить в блоке "Рецепты" недоступна')
+
+    step('Шаг 2: Нажать на кнопку "Добавить" в блоке "Рецепты"')
+    f.click_element(BT_add_recipe)
+    time.sleep(3)
+    if f.enabled(FM_recipe):
+        true_step('ОР: Открылась форма создания рецептов')
+    else:
+        false_step('Ошибка: Форма создания рецепта недоступна')
+
+    step('Шаг 3: Выбрать чек-бокс "Коммерческий"')
+    f.click_element(CH_comm)
+    time.sleep(2)
+    if f.enabled(CH_comm):
+        true_step('ОР: Чек-бокс выбран')
+    else:
+        false_step('Ошибка: Чек- бокс не выбран')
+
+    step('Шаг 4: Проверить, что поле "Дата выписки" заполнено автоматически текущей датой')
+    date = (DT.strftime('%d.%m.%Y'))
+    if f.atribut(FD_date) == date:
+        true_step(f'ОР: Поле "Дата выписки" заполнено текущей датой {date}')
+    else:
+        false_step('Ошибка: Поле "Дата выписки" заполнено некорректно по умолчанию')
+
+    step('Шаг 5: Очистить поле "Дата выписки" с клавиатуры')
+    f.clear_delete(FD_date)
+    time.sleep(2)
+    f.tab(FD_date)
+    time.sleep(2)
+    if f.atribut(FD_date) == '' and f.backColor(OB_date) == 'rgba(255, 82, 82, 1)':
+        true_step('ОР: Поле очищено и подсвечено красным, как обязательное для заполнения')
+    else:
+        false_step('Ошибка: Поле не очистилось или нет обязательности')
+
+    step('Шаг 6: Нажать на календарь и выбрать дату выписки')
+    f.click_element(BT_date)
+    time.sleep(1)
+    # Получаю вчерашний день в формате: только число/день
+    day = (DT - timedelta(days=1)).strftime('%d')
+    f.searchDay(CL_date, day)
+    time.sleep(3)
+
+    step('Шаг 7: Очистить поле "Дата выписки" с клавиатуры')
+    f.clear_delete(FD_date)
+    f.tab(FD_date)
+    time.sleep(1)
+    if f.atribut(FD_date) == '' and f.backColor(OB_date) == 'rgba(255, 82, 82, 1)':
+        true_step('ОР: Поле очищено и подсвечено красным, как обязательное для заполнения')
+    else:
+        false_step('Ошибка: Поле не очистилось или нет обязательности')
+
+    step('Шаг 8: Заполнить поле "Дата выписки" цифрами с клавиатуры')
+    newDate = (DT - timedelta(days=4)).strftime('%d.%m.%Y')
+    f.send_keys(FD_date, newDate)
+    f.tab(FD_date)
+    time.sleep(1)
+    if f.atribut(FD_date) == newDate:
+        true_step('ОР: Поле заполнено корректно')
+    else:
+        false_step('Ошибка: Поле "Дата начала" заполнилось некорректно')
+
+    step('Шаг 9: Очистить поле "Дата выписки" с клавиатуры')
+    f.clear_delete(FD_date)
+    f.tab(FD_date)
+    time.sleep(1)
+    if f.atribut(FD_date) == '' and f.backColor(OB_date) == 'rgba(255, 82, 82, 1)':
+        true_step('ОР: Поле очищено и подсвечено красным, как обязательное для заполнения')
+    else:
+        false_step('Ошибка: Поле не очистилось или нет обязательности')
+
+    step('Шаг 10: Заполнить поле "Дата выписки" буквами с клавиатуры')
+    f.send_keys(FD_date, 'буквы')
+    f.tab(FD_date)
+    time.sleep(1)
+    if f.atribut(FD_date) == '' and f.backColor(OB_date) == 'rgba(255, 82, 82, 1)':
+        true_step('ОР: Поле заполнено корректно')
+    else:
+        false_step('Ошибка: Поле "Дата начала" заполнилось некорректно')
+
+    step('Шаг 10: Заполнить поле "Дата выписки" с клавиатуры символами')
+    f.send_keys(FD_date, '!№;%:')
+    f.tab(FD_date)
+    time.sleep(1)
+    if f.atribut(FD_date) == '' and f.backColor(OB_date) == 'rgba(255, 82, 82, 1)':
+        true_step('ОР: Поле заполнено корректно')
+    else:
+        false_step('Ошибка: Поле "Дата начала" заполнилось некорректно')
+
+
+
+
+
+
+
+
 
 
 

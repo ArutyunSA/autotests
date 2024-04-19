@@ -14,7 +14,7 @@
    2. Запуск отдельного теста:
       - `D:\Автотесты\autoTests\venv\Scripts\python.exe -m pytest <путь_к_файлу>::<имя_теста>`
       - Пример: `D:\Автотесты\autoTests\venv\Scripts\python.exe -m pytest D:\Автотесты\autoTests\test_TAP.py::test_create_purpose`
-   3. **Запуск тестов с отчётов алюр:** 
+   3. **Запуск тестов с отчётом алюр:** 
       - `pytest --alluredir=./allure-results`
 
 
