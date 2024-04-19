@@ -19,10 +19,11 @@ def test_1_cases_create_purpose():
     #Перехожу по ссылке в ТАП
     browser.get(url_TAP)
     browser.implicitly_wait(20)
+    f = ContractsPage(browser)
     time.sleep(4)
 
     # Кликаю кнопку "Добавить" в блоке "Назначения"
-    click_element(BT_add_purpose)
+    f.click_element(BT_add_purpose)
     time.sleep(4)
 
     #Кликаю по полю "Препарат"
