@@ -55,9 +55,9 @@
     | BT  | button    / кнопка
     | CR  | cross/plus(from tree)              / крестик/плюс (из дерева)
     | FM  | form(from check window/form input) / форма (из окна проверки/ввода формы)
--   | ST  | state / статус
--   | OB  | obligatory / Признак обязательность
--   | FM  | form / Форма
+    | ST  | state / статус
+    | OB  | obligatory / Признак обязательность
+    | FM  | form / Форма
 
 # HELP for XPATH:
     #   ancestor:: — возвращает множество предков.
