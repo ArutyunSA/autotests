@@ -8,36 +8,21 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium import webdriver
-from colorama import init, Fore, Back, Style
+from coloram import *
 from function import *
 
-# Инициализация colorama
-init()
-
-def step(message):
-    print(f"{Style.BRIGHT}{message}{Style.RESET_ALL}")
-
-def true_step(message):
-    print(f"{Fore.GREEN}{message}{Style.RESET_ALL}")
-def false_step(message):
-    print(f"{Fore.RED}{message}{Style.RESET_ALL}")
-
-def case_name(message):
-    print(f"{Fore.YELLOW}{message}{Style.RESET_ALL}")
 
 
-
-#========================================Подписание назначения в ТАП====================================================
+#=========================Подписание назначения в ТАП (Для вызова в других кейсах)======================================
 def test_1_cases_create_purpose():
 
     #Перехожу по ссылке в ТАП
     browser.get(url_TAP)
     browser.implicitly_wait(20)
-    f = ContractsPage(browser)
     time.sleep(4)
 
     # Кликаю кнопку "Добавить" в блоке "Назначения"
-    f.click_element(BT_add_purpose)
+    click_element(BT_add_purpose)
     time.sleep(4)
 
     #Кликаю по полю "Препарат"
@@ -56,7 +41,7 @@ def test_1_cases_create_purpose():
     time.sleep(8)
 
 
-#==========================================Сохранение рецепта в ТАП=====================================================
+#============================Сохранение рецепта в ТАП (Для вызова в других кейсах)======================================
 def test_2_cases_create_recipe():
     #Создаю назначение
     test_1_cases_create_purpose()
@@ -1649,5 +1634,8 @@ def test_23_cases_602():
         true_step('ОР: Появляется уведомление о том, что не удалось добавить назначение, поле "Детализация" подсвечено красным')
     else:
         false_step('Ошибка: Отсутствует уведомление об ошибке сохранения назначения или поле детализация не подсвечено красным')
+
+
+
 
 

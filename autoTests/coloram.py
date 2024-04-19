@@ -1,7 +1,8 @@
 #=================Здесь указаны цвета отображения шагов и результатов теста в консоли=============================
-
+import time
+import pytest
+import testit
 from colorama import init, Fore, Back, Style
-
 # Инициализация colorama
 init()
 

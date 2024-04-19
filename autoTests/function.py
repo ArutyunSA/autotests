@@ -3,25 +3,13 @@ import time
 import pytest
 import testit
 from path import *
+from coloram import *
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium import webdriver
-from colorama import init, Fore, Back, Style
-# Инициализация colorama
-init()
 
-def step(message):
-    print(f"{Style.BRIGHT}{message}{Style.RESET_ALL}")
-
-def true_step(message):
-    print(f"{Fore.GREEN}{message}{Style.RESET_ALL}")
-def false_step(message):
-    print(f"{Fore.RED}{message}{Style.RESET_ALL}")
-
-def case_name(message):
-    print(f"{Fore.YELLOW}{message}{Style.RESET_ALL}")
 
 
 
