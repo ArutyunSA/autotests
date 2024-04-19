@@ -6,6 +6,9 @@ from colorama import init, Fore, Back, Style
 # Инициализация colorama
 init()
 
+def case_name(message):
+    print(f"{Fore.YELLOW}{message}{Style.RESET_ALL}")
+
 def step(message):
     print(f"{Style.BRIGHT}{message}{Style.RESET_ALL}")
 
@@ -14,8 +17,6 @@ def true_step(message):
 def false_step(message):
     print(f"{Fore.RED}{message}{Style.RESET_ALL}")
 
-def case_name(message):
-    print(f"{Fore.YELLOW}{message}{Style.RESET_ALL}")
 
 
 
