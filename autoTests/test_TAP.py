@@ -215,7 +215,7 @@ def test_5_cases_595():
         true_step('ОР: Открылась форма создания рецептов.')
     else:
         false_step('Ошибка: Форма рецепта не открылась')
-    time.sleep(4)
+    time.sleep(3)
 
     step('Шаг 3: Установить флажок "Коммерческий".')
     f.click_element(CH_comm)
@@ -223,11 +223,11 @@ def test_5_cases_595():
         true_step('ОР: Флажок установлен.')
     else:
         false_step('Ошибка: Не удалось выбрать чек-бокс "Коммерческий"')
-    time.sleep(2)
+    time.sleep(1)
 
     step('Шаг 4: Установить флажок "На дом".')
     f.click_element(CH_home)
-    time.sleep(4)
+    time.sleep(1)
     if f.enabled(FD_phone) and f.enabled(FD_adress):
         true_step('ОР: Поля "Телефон" и "Адрес доставки" доступны для редактирования.')
     else:
@@ -236,7 +236,7 @@ def test_5_cases_595():
     step('Шаг 5: Очистить поле "Адрес доставки".')
     f.click_element(BT_clear_adress)
     f.tab(FD_adress)
-    time.sleep(2)
+    time.sleep(1)
     text_errors = " Адрес должен содержать как минимум регион (объект фед. значения), улицу/населенный пункт и номер дома "
     if f.atribut(WD_adress) != text_errors and f.textColor(WD_adress) == 'rgba(255, 82, 82, 1)':
         true_step('ОР: Поле очищено и подсвечено красным, как обязательное для заполнения.')
@@ -246,7 +246,7 @@ def test_5_cases_595():
     step('Шаг 6: Начать заполнять поле с клавиатуры.')
     text = 'Белгородская обл, г Строитель, ул Ленина, д 19 к а стр 1, кв 56'
     f.send_keys(FD_adress, text)
-    time.sleep(2)
+    time.sleep(1)
     if f.text(LT) == text:
         true_step('ОР: Происходит фильтрация значений в выпадающем списке.')
     else:
@@ -254,7 +254,7 @@ def test_5_cases_595():
 
     step('Шаг 7: Выбрать значение из списка.')
     f.click_element(LT)
-    time.sleep(2)
+    time.sleep(1)
     f.tab(FD_adress)
     time.sleep(1)
     if f.enabled(FD_adress_text):
@@ -264,7 +264,7 @@ def test_5_cases_595():
 
     step('Шаг 8: Очистить поле "Адрес доставки" нажатием на крестик')
     f.click_element(BT_clear_adress)
-    time.sleep(2)
+    time.sleep(1)
     if f.element_absent(FD_adress_text) and f.textColor(WD_adress) == 'rgba(255, 82, 82, 1)':
         true_step('ОР: Поле очищено и подсвечено красным, как обязательное для заполнения.')
     else:
@@ -272,7 +272,6 @@ def test_5_cases_595():
 
     step('Шаг 9: Ввести в поле невалидное значение и кликнуть в пустом месте формы.')
     f.send_keys(FD_adress, 'Невалидный адрес')
-    time.sleep(2)
     f.tab(FD_adress)
     time.sleep(1)
     if f.element_absent(FD_adress_text) and f.textColor(WD_adress) == 'rgba(255, 82, 82, 1)':
@@ -368,6 +367,7 @@ def test_7_cases_677():
     step('Шаг 1: Нажать кнопку "Добавить" в блоке "Врачебные назначения"')
     #Кликаю кнопку "Добавить" в блоке "Назначения"
     f.click_element(BT_add_purpose)
+    date = DT.strftime('%H:%M')
     time.sleep(3)
     if f.enabled(FM_purpose):
         true_step('ОР: - Открывается форма ввода данных нового назначения')
@@ -379,7 +379,7 @@ def test_7_cases_677():
         false_step('Ошибка: Не выбрана вкладка "Лекарственный препарат" по умолчанию')
 
     step('Шаг 2: Проверить, что поле "Время" заполнено автоматически текущим временем')
-    if f.atribut(FD_time) == DT.strftime('%H:%M'):
+    if f.atribut(FD_time) == date:
         true_step('ОР: - Поле заполнено автоматически текущим временем')
     else:
         false_step('Ошибка: Значение в поле "Время" НЕ содержит текущее время')
@@ -1814,7 +1814,7 @@ def test_25_cases_593():
     else:
         false_step('Ошибка: Поле "Дата начала" заполнилось некорректно')
 
-    step('Шаг 10: Заполнить поле "Дата выписки" с клавиатуры символами')
+    step('Шаг 11: Заполнить поле "Дата выписки" с клавиатуры символами')
     f.send_keys(FD_date, '!№;%:')
     f.tab(FD_date)
     time.sleep(1)
