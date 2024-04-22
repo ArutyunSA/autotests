@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4ea1d419-07eb-418a-ad25-669c41a7981d" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/autoTests/README.md" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/autoTests/colorama.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/autoTests/function.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/autoTests/path.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/autoTests/test_TAP.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2eapk2CbwHCraaroZDSEhn3KlWz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for .executor": "Run",
+    "Python tests.pytest for test_TAP.test_10_case_616.executor": "Run",
+    "Python tests.pytest for test_TAP.test_11_case_611.executor": "Run",
+    "Python tests.pytest for test_TAP.test_12_cases_618.executor": "Run",
+    "Python tests.pytest for test_TAP.test_13_cases_615.executor": "Run",
+    "Python tests.pytest for test_TAP.test_14_cases_614.executor": "Run",
+    "Python tests.pytest for test_TAP.test_15_cases_610.executor": "Run",
+    "Python tests.pytest for test_TAP.test_16_cases_617.executor": "Run",
+    "Python tests.pytest for test_TAP.test_17_cases_619.executor": "Run",
+    "Python tests.pytest for test_TAP.test_18_cases_613.executor": "Run",
+    "Python tests.pytest for test_TAP.test_19_cases_601.executor": "Run",
+    "Python tests.pytest for test_TAP.test_1_cases_649.executor": "Run",
+    "Python tests.pytest for test_TAP.test_1_cases_create_purpose.executor": "Run",
+    "Python tests.pytest for test_TAP.test_20_cases_605.executor": "Run",
+    "Python tests.pytest for test_TAP.test_21_cases_604.executor": "Run",
+    "Python tests.pytest for test_TAP.test_22_cases_603.executor": "Run",
+    "Python tests.pytest for test_TAP.test_23_cases_602.executor": "Run",
+    "Python tests.pytest for test_TAP.test_24_cases_592.executor": "Run",
+    "Python tests.pytest for test_TAP.test_25_cases_592.executor": "Run",
+    "Python tests.pytest for test_TAP.test_2_cases_create_recipe.executor": "Run",
+    "Python tests.pytest for test_TAP.test_3_cases_597.executor": "Run",
+    "Python tests.pytest for test_TAP.test_4_cases_629.executor": "Run",
+    "Python tests.pytest for test_TAP.test_5_cases_595.executor": "Run",
+    "Python tests.pytest for test_TAP.test_6_cases_14508.executor": "Run",
+    "Python tests.pytest for test_TAP.test_7_cases_677.executor": "Run",
+    "Python tests.pytest for test_TAP.test_8_cases_618.executor": "Run",
+    "Python tests.pytest for test_TAP.test_8_cases_649.executor": "Run",
+    "Python tests.pytest for test_TAP.test_9_case_609.executor": "Run",
+    "Python tests.pytest in test_TAP.py.executor": "Run",
+    "Python.python --version.executor": "Run",
+    "Python.python -m venv venv.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/project/autoTests"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\project\autoTests\allure-results" />
+      <recent name="C:\project\autoTests\autoTests" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="pip install -r requirements.txt" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Python tests.pytest for test_TAP.test_25_cases_593">
+    <configuration name="pytest for test_TAP.test_1_cases_create_purpose" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="autoTests" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autoTests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_TAP.test_1_cases_create_purpose&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_TAP.test_24_cases_592" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="autoTests" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autoTests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_TAP.test_24_cases_592&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_TAP.test_25_cases_592" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="autoTests" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autoTests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_TAP.test_25_cases_592&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_TAP.test_25_cases_593" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="autoTests" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autoTests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_TAP.test_25_cases_593&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_TAP.test_7_cases_677" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="autoTests" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autoTests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_TAP.test_7_cases_677&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.pytest for test_TAP.test_1_cases_create_purpose" />
+      <item itemvalue="Python tests.pytest for test_TAP.test_24_cases_592" />
+      <item itemvalue="Python tests.pytest for test_TAP.test_25_cases_592" />
+      <item itemvalue="Python tests.pytest for test_TAP.test_25_cases_593" />
+      <item itemvalue="Python tests.pytest for test_TAP.test_7_cases_677" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest for test_TAP.test_25_cases_593" />
+        <item itemvalue="Python tests.pytest for test_TAP.test_7_cases_677" />
+        <item itemvalue="Python tests.pytest for test_TAP.test_25_cases_592" />
+        <item itemvalue="Python tests.pytest for test_TAP.test_24_cases_592" />
+        <item itemvalue="Python tests.pytest for test_TAP.test_1_cases_create_purpose" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-d68999036c7f-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.14475.56" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ea1d419-07eb-418a-ad25-669c41a7981d" name="Changes" comment="" />
+      <created>1712152682385</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712152682385</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
