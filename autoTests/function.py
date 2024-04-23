@@ -61,6 +61,11 @@ class ContractsPage:
         input_element = self.browser.find_element(*element)
         return input_element.get_attribute("disabled") in ["true", "disabled"]
 
+    #================================Функция для проверки выбранности элемента==========================================
+    def is_selected(self, element):
+        radio_button = self.browser.find_element(*element)
+        return radio_button.is_selected()
+
     #===============================Функция проверки отсутствия элемента на странице====================================
     def element_absent(self, element):
         elements = self.browser.find_elements(*element)
@@ -175,7 +180,6 @@ class ContractsPage:
             except TimeoutException:
                 self.browser.execute_script(f"window.scrollBy(0, -{scroll_step});")
         self.browser.execute_script("window.scrollTo(0, 0);")
-
 
 
 

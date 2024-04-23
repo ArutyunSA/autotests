@@ -16,6 +16,8 @@
       - Пример: `D:\Автотесты\autoTests\venv\Scripts\python.exe -m pytest D:\Автотесты\autoTests\test_TAP.py::test_create_purpose`
    3. **Запуск тестов с отчётом алюр:** 
       - `pytest --alluredir=./allure-results`
+   4. Запуск всех тестов с выводом в консоль результатов в реальном времени для регресса
+      - `pytest -v -s -m regress_tap`
 
 
 ## Структура проекта
@@ -48,7 +50,7 @@
     | home()           | Перемещение курсора в начало строки                         
     | searchDay()      | Поиск и выбор дня в календаре 
     | getStateGrid()   | Проверка статуса в гриде
-    | clickStateGrid() | Выбора элемента с нужным статусом в гриде
+    | clickStateGrid() | Выбор элемента с нужным статусом в гриде
     | getNullGrid()    | Проверка отсутствия элемента в гриде
 
    

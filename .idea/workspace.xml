@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ea1d419-07eb-418a-ad25-669c41a7981d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/autoTests/pytest.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/autoTests/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/autoTests/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoTests/checks/formChecks.py" beforeDir="false" afterPath="$PROJECT_DIR$/autoTests/checks/formChecks.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/autoTests/function.py" beforeDir="false" afterPath="$PROJECT_DIR$/autoTests/function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoTests/path.py" beforeDir="false" afterPath="$PROJECT_DIR$/autoTests/path.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoTests/test_TAP.py" beforeDir="false" afterPath="$PROJECT_DIR$/autoTests/test_TAP.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +35,7 @@
     <setting file="file://$PROJECT_DIR$/autoTests/coloram.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/autoTests/function.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/autoTests/path.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/autoTests/pytest.ini" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/autoTests/test_TAP.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -52,6 +57,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Python tests.Python tests for .executor": "Run",
+    "Python tests.pytest for function.test_skip.executor": "Run",
     "Python tests.pytest for test_TAP.test_10_case_616.executor": "Run",
     "Python tests.pytest for test_TAP.test_11_case_611.executor": "Run",
     "Python tests.pytest for test_TAP.test_12_cases_618.executor": "Run",
@@ -77,6 +83,8 @@
     "Python tests.pytest for test_TAP.test_29_cases_667.executor": "Run",
     "Python tests.pytest for test_TAP.test_2_cases_create_recipe.executor": "Run",
     "Python tests.pytest for test_TAP.test_30_cases_662.executor": "Run",
+    "Python tests.pytest for test_TAP.test_31_cases_636.executor": "Run",
+    "Python tests.pytest for test_TAP.test_32_cases_661.executor": "Run",
     "Python tests.pytest for test_TAP.test_3_cases_597.executor": "Run",
     "Python tests.pytest for test_TAP.test_4_cases_629.executor": "Run",
     "Python tests.pytest for test_TAP.test_5_cases_595.executor": "Run",
@@ -90,7 +98,6 @@
     "Python.python -m venv venv.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/project/autoTests"
   },
@@ -101,8 +108,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\project\autoTests\autoTests\checks" />
       <recent name="C:\project\autoTests\autoTests" />
+      <recent name="C:\project\autoTests\autoTests\tests" />
+      <recent name="C:\project\autoTests\autoTests\checks" />
       <recent name="C:\project\autoTests\allure-results" />
     </key>
   </component>
@@ -111,25 +119,25 @@
       <command value="pip install -r requirements.txt" />
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_TAP.test_30_cases_662">
-    <configuration name="pytest for test_TAP.test_27_cases_600" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for test_TAP.test_1_cases_create_purpose">
+    <configuration name="pytest for autoTests.test_TAP.test_1_cases_create_purpose" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="autoTests" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autoTests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autoTests/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_TAP.test_27_cases_600&quot;" />
+      <option name="_new_target" value="&quot;autoTests.test_TAP.test_1_cases_create_purpose&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_TAP.test_28_cases_612" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for autoTests.test_TAP.test_31_cases_636" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="autoTests" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,11 +150,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_TAP.test_28_cases_612&quot;" />
+      <option name="_new_target" value="&quot;autoTests.test_TAP.test_31_cases_636&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_TAP.test_29_cases_667" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for autoTests.test_TAP.test_32_cases_661" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="autoTests" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,28 +167,28 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_TAP.test_29_cases_667&quot;" />
+      <option name="_new_target" value="&quot;autoTests.test_TAP.test_32_cases_661&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_TAP.test_30_cases_662" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for autoTests.test_TAP.test_32_cases_661" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="autoTests" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autoTests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autoTests/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_TAP.test_30_cases_662&quot;" />
+      <option name="_new_target" value="&quot;autoTests.test_TAP.test_32_cases_661&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_TAP.test_8_cases_649" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for autoTests.tests.test_TAP.test_32_cases_661" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="autoTests" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -193,24 +201,58 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_TAP.test_8_cases_649&quot;" />
+      <option name="_new_target" value="&quot;autoTests.tests.test_TAP.test_32_cases_661&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for function.test_skip" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="autoTests" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autoTests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;function.test_skip&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_TAP.test_1_cases_create_purpose" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="autoTests" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autoTests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_TAP.test_1_cases_create_purpose&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.pytest for test_TAP.test_27_cases_600" />
-      <item itemvalue="Python tests.pytest for test_TAP.test_28_cases_612" />
-      <item itemvalue="Python tests.pytest for test_TAP.test_29_cases_667" />
-      <item itemvalue="Python tests.pytest for test_TAP.test_30_cases_662" />
-      <item itemvalue="Python tests.pytest for test_TAP.test_8_cases_649" />
+      <item itemvalue="Python tests.pytest for autoTests.test_TAP.test_1_cases_create_purpose" />
+      <item itemvalue="Python tests.pytest for autoTests.test_TAP.test_31_cases_636" />
+      <item itemvalue="Python tests.pytest for autoTests.test_TAP.test_32_cases_661" />
+      <item itemvalue="Python tests.pytest for function.test_skip" />
+      <item itemvalue="Python tests.pytest for test_TAP.test_1_cases_create_purpose" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_TAP.test_30_cases_662" />
-        <item itemvalue="Python tests.pytest for test_TAP.test_29_cases_667" />
-        <item itemvalue="Python tests.pytest for test_TAP.test_28_cases_612" />
-        <item itemvalue="Python tests.pytest for test_TAP.test_27_cases_600" />
-        <item itemvalue="Python tests.pytest for test_TAP.test_8_cases_649" />
+        <item itemvalue="Python tests.pytest for test_TAP.test_1_cases_create_purpose" />
+        <item itemvalue="Python tests.pytest for autoTests.test_TAP.test_1_cases_create_purpose" />
+        <item itemvalue="Python tests.pytest for autoTests.test_TAP.test_32_cases_661" />
+        <item itemvalue="Python tests.pytest for function.test_skip" />
+        <item itemvalue="Python tests.pytest for autoTests.test_TAP.test_32_cases_661" />
       </list>
     </recent_temporary>
   </component>

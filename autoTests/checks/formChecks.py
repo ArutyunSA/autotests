@@ -116,7 +116,7 @@ def OB_form_recipe_commerchesky():
     f = ContractsPage(browser)
     all_fields_filled = True
 
-    if f.text(FD_privilege) == '' or f.disabled(FD_privilege):
+    if f.atribut(FD_privilege) == '' or f.disabled(FD_privilege):
         false_step('Ошибка: Поле "Льгота" заполнено или доступно для редактирования')
         all_fields_filled = False
     if f.atribut(FD_source_of_financing) != '' or f.enabled(FD_source_of_financing):

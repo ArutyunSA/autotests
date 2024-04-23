@@ -6,11 +6,16 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium import webdriver
 from datetime import datetime, timedelta
 
-browser = webdriver.Chrome()
+chrome_options = webdriver.ChromeOptions()
+chrome_options.add_extension('C:/Users/Арутюн/AppData/Local/Google/Chrome/User Data/component_crx_cache/eeigpngbgcognadeebkilcpcaedhellh_1.c64c9c1008f3ba5f6e18b3ca524bc98dcd8acfae0a2720a8f1f3ef0f8d643d05')
+browser = webdriver.Chrome(options=chrome_options)
 browser.maximize_window()
 
 #====================================Ссылка на ТАП==============================================
 url_TAP = 'http://192.168.7.218/test/statist/purpose/3648973/523452F6-124E-4D63-94C4-012D71072FD3/2023-01-17T00:00:00/jZ3zgDedI7%2BnkR5IPdNbH%2FYaNpaXLi%2Fq3URuK4TMHjdxRovpj%2BuRfl6d5R9UdVJHkXRZNYvHAKwdlRjlu0Ry2BmWuoW3v3%2BWj5a3V%2BfC%2FjDZJgEYe9bA93Tw2knvaQ9x2du9y3JXxlsvzoYAApnrPZPYTq07wrMBXF1882SI8vY6JxyPkd8P1pLYKURqhCzaU7toAm0X30QzqDPL2XbUx3HhaHGpwiY0%2Bu%2Fp%2BZzQJd9jmmRXr7jdejb5a%2Bb0aRKixcOw2lrUv5TqE0NJWaFFLKMOdaw%2BBqk4T2Gk0d0DAUEgkH%2BihWJDogj2SMAjs%2FcdW5F5YA%3D%3D?ticket=jZ3zgDedI7%2BnkR5IPdNbH%2FYaNpaXLi%2Fq3URuK4TMHjdxRovpj%2BuRfl6d5R9UdVJHkXRZNYvHAKwdlRjlu0Ry2BmWuoW3v3%2BWj5a3V%2BfC%2FjDZJgEYe9bA93Tw2knvaQ9x2du9y3JXxlsvzoYAApnrPZPYTq07wrMBXF1882SI8vY6JxyPkd8P1pLYKURqhCzaU7toAm0X30QzqDPL2XbUx3HhaHGpwiY0%2Bu%2Fp%2BZzQJd9jmmRXr7jdejb5a%2Bb0aRKixcOw2lrUv5TqE0NJWaFFLKMOdaw%2BBqk4T2Gk0d0DAUEgkH%2BihWJDogj2SMAjs%2FcdW5F5YA%3D%3D&DocPrvdId=2000&MisUrl=https:%2F%2Ftest.2dr.ru%2Fdemo&ReturnUrl=http:%2F%2Ftest.2dr.ru%2Fdemo%2FTap'
+
+#====================================Ссылка на ТАП пациент с 1 льготой==============================================
+url_1Lgot_TAP = 'http://192.168.7.218/test/statist/purpose/3649164/523452F6-124E-4D63-94C4-012D71072FD3/2023-01-17T00:00:00/jZ3zgDedI7%2BnkR5IPdNbH%2FYaNpaXLi%2Fq3URuK4TMHjdxRovpj%2BuRfl6d5R9UdVJHkXRZNYvHAKwdlRjlu0Ry2BmWuoW3v3%2BWj5a3V%2BfC%2FjDZJgEYe9bA93Tw2knvaQ9x2du9y3JXxlsvzoYAApnrPZPYTq07wrMBXF1882SI8vY6JxyPkd8P1pLYKURqhCzaU7toAm0X30QzqDPL2XbUx3HhaHGpwiY0%2Bu%2Fp%2BZzQJd9jmmRXr7jdejb5a%2Bb0aRKixcOw2lrUv5TqE0NJWaFFLKMOdaw%2BBqk4T2Gk0d0DAUEgkH%2BihWJDogj2SMAjs%2FcdW5F5YA%3D%3D?ticket=jZ3zgDedI7%2BnkR5IPdNbH%2FYaNpaXLi%2Fq3URuK4TMHjdxRovpj%2BuRfl6d5R9UdVJHkXRZNYvHAKwdlRjlu0Ry2BmWuoW3v3%2BWj5a3V%2BfC%2FjDZJgEYe9bA93Tw2knvaQ9x2du9y3JXxlsvzoYAApnrPZPYTq07wrMBXF1882SI8vY6JxyPkd8P1pLYKURqhCzaU7toAm0X30QzqDPL2XbUx3HhaHGpwiY0%2Bu%2Fp%2BZzQJd9jmmRXr7jdejb5a%2Bb0aRKixcOw2lrUv5TqE0NJWaFFLKMOdaw%2BBqk4T2Gk0d0DAUEgkH%2BihWJDogj2SMAjs%2FcdW5F5YA%3D%3D&DocPrvdId=2000&MisUrl=https:%2F%2Ftest.2dr.ru%2Fdemo&ReturnUrl=http:%2F%2Ftest.2dr.ru%2Fdemo%2FTap'
 
 #====================================Текущая дата и время=======================================
 DT = datetime.now()     # Формат даты: '%d/%m/%Y',
@@ -192,8 +197,11 @@ BT_add_recipe = (By.CSS_SELECTOR, '#appointmentRecipe > appointment-recipe > div
     #Локатор формы рецепта
 FM_recipe = (By.ID, 'appointmentRecipeForm')
 
+    #Локатор статуса рецепта в гриде
+ST_recipe_grid = (By.XPATH, '//*[@id="appointmentRecipe"]/appointment-recipe/div[2]/div/div/app-st-table/div/table/tbody/tr/td[7]')
+
     #Локатор поля "Льгота"
-FD_privilege = (By.CSS_SELECTOR, '#appointmentRecipeForm > div > div > div > mat-card > form > div:nth-child(1) > div.col.s6 > st-autocomplete')
+FD_privilege = (By.XPATH, '//*[@id="mat-input-26"]')
 
     #Локатор первого элемента выпадающего списка поля "Льгота"
 LT = (By.CSS_SELECTOR, '.mat-option-text')
@@ -211,7 +219,10 @@ BT_caption_recipe = (By.CSS_SELECTOR, '#appointmentRecipeForm > div > div > div 
 CL_num_recipe = (By.CSS_SELECTOR, '#appointmentRecipe > appointment-recipe > div.row.mb-0 > div > div > app-st-table > div > table > tbody > tr > td.mat-mdc-cell.mdc-data-table__cell.cdk-cell.cdk-column-numRecipe.mat-column-numRecipe.appointment__row.appointment__row--edit.ng-star-inserted')
 
     #Локатор Радиокнопки "Коммерческий"
-CH_comm = (By.XPATH, '//*[@id="appointmentRecipeForm"]/div/div/div/mat-card/form/div[1]/div[1]/mat-radio-group[2]')
+CH_comm = (By.XPATH, '//*[@id="mat-radio-15-input"]')
+
+    #Локатор радиокнопки "Льготный"
+CH_privilege = (By.XPATH, '//*[@id="mat-radio-13-input"]')
 
     #Локатор Чек-бокса "Бланк"
 CH_blank = (By.CSS_SELECTOR, '#appointmentRecipeForm > div > div > div > mat-card > form > div:nth-child(2) > div.col.s1.mat-input-wrapper')
