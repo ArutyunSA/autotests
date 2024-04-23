@@ -19,8 +19,12 @@ DT = datetime.now()     # Формат даты: '%d/%m/%Y',
 #====================================Локатор всплывающего окна ошибки===========================
 ER = (By.XPATH, "//div[@class='snackbar-text-wrapper']")
 
+#Локатор кнопки числа даты в календаре (Выбор числа в календаре, указав value = 12 например)
+CL_date = (By.CSS_SELECTOR, '.mat-calendar-body-cell-content.mat-focus-indicator')
 
-#=========================Локаторы блока/формы "Назначения" в ТАП================================
+
+
+#====================================Локаторы блока/формы "Назначения" в ТАП============================================
 
     #Локатор кнопки "Добавить"
 BT_add_purpose = (By.CSS_SELECTOR, '.btn-panel.ng-star-inserted')
@@ -31,7 +35,7 @@ FM_purpose = (By.ID, 'appointmentAdding')
     #Локатор поля "Препарат"
 FD_drug = (By.XPATH, '//*[@id="mat-input-12"]')
 
-    #Локатор первого элемента выпадающего списка поля "Препарат"
+    #Локатор первого элемента выпадающего списка
 LT = (By.CSS_SELECTOR, '.mat-option-text')
 
     #Локатор кнопки "Подписать"
@@ -41,13 +45,19 @@ BT_signature_path = (By.XPATH, '//*[@id="appointmentAdding"]/appointment-add/div
 CL_purpose_grid = (By.CSS_SELECTOR, '#appointment > app-appointment > div > div:nth-child(3) > div > div > app-st-table > div > table > tbody > tr.mat-mdc-row.mdc-data-table__row.cdk-row.example-element-row.cursorPointer.row-element.ng-star-inserted.select-row')
 
     #Локатор статуса выбранного назначения в гриде
-ST_purpose_grid = (By.CSS_SELECTOR, '#appointment > app-appointment > div > div:nth-child(3) > div > div > app-st-table > div > table > tbody > tr.mat-mdc-row.mdc-data-table__row.cdk-row.example-element-row.cursorPointer.row-element.ng-star-inserted.select-row > td.mat-mdc-cell.mdc-data-table__cell.cdk-cell.cdk-column-appointmentCardNum.mat-column-appointmentCardNum.appointment__row.ng-star-inserted')
+ST_purpose_grid = (By.CSS_SELECTOR, '.mat-mdc-row.mdc-data-table__row.cdk-row.example-element-row.cursorPointer.row-element.ng-star-inserted.select-row > td.mat-mdc-cell.mdc-data-table__cell.cdk-cell.cdk-column-appointmentCardNum.mat-column-appointmentCardNum.appointment__row.ng-star-inserted')
+
+    #Локатор всех статусов назначений в гриде
+ST_all_purpose_grid = (By.CSS_SELECTOR, '.mat-mdc-cell.mdc-data-table__cell.cdk-cell.cdk-column-appointmentCardNum.mat-column-appointmentCardNum.appointment__row.ng-star-inserted')
 
     #Локатор кнопки "Отменить"
 BT_cancel = (By.XPATH, '//*[@id="appointmentAdding"]/appointment-add/div[1]/div/div/mat-card/div[3]/div/div/button')
 
     #Локатор чек-бокса "Резистентность к ЛС"
 CH_rez = (By.XPATH, '//*[@id="appointmentAdding"]/appointment-add/div[1]/div/div/mat-card/div[2]/div[1]')
+
+    #Локатор чек-бокса "Резистентность к ЛС" выбранного
+CH_rez_true = (By.CSS_SELECTOR, '.mdc-checkbox__native-control.mdc-checkbox--selected')
 
     #Локатор поля "Комментарий" при отмене назначения
 FD_comments = (By.XPATH, '//*[@id="appointmentAdding"]/appointment-add/div[1]/div/div/mat-card/div[2]/div[2]/mat-form-field/div/div[1]/div/input')
@@ -56,10 +66,10 @@ FD_comments = (By.XPATH, '//*[@id="appointmentAdding"]/appointment-add/div[1]/di
 BT_save_cancel = (By.XPATH, '//*[@id="appointmentAdding"]/appointment-add/div[1]/div/div/mat-card/div[5]/div/div[2]/button')
 
     #Локатор кнопки "Сохранить"
-BT_save = (By.XPATH, '//*[@id="appointmentAdding"]/appointment-add/div[1]/div/div/mat-card/div[2]/div/div[2]/button')
+BT_save_purpose = (By.XPATH, '//*[@id="appointmentAdding"]/appointment-add/div[1]/div/div/mat-card/div[2]/div/div[2]/button')
 
     #Локатор статуса назначения в форме назначения
-ST_purpose = (By.CSS_SELECTOR, '.span-title-left-emphasis.ng-tns-c241-9.ng-star-inserted')
+ST_purpose = (By.XPATH, '//*[@id="appointmentAdding"]/appointment-add/div[1]/div/div/mat-card/div[1]/div/h2/span[2]')
 
 CH_rez_of = (By.XPATH, "//input[contains(@class, 'mdc-checkbox--selected')][@disabled]")
 
@@ -147,15 +157,33 @@ FD_way = (By.CSS_SELECTOR, '.mat-form-field-infix.ng-tns-c11-25 > input')
     #Локатор обязательности поля "Путь введения" (подсвеченность красным)
 OB_way = (By.CSS_SELECTOR, '.mat-form-field-ripple.ng-tns-c11-25')
 
+    #Локатор выпадающего списка поля "Путь введения"
+LT_Way = (By.CSS_SELECTOR, '.mat-autocomplete-panel.mat-primary.ng-star-inserted.mat-autocomplete-visible')
+
+    #Локатор крестика очистки поля "Путь введения"
+BT_clear_way = (By.CSS_SELECTOR, '.ng-tns-c11-25 > button')
+
     #Локатор поля "МНН"
 FD_mnn = (By.CSS_SELECTOR, '.mat-form-field-infix.ng-tns-c11-19 > input')
 
     #Локатор поля "Торговое"
 FD_trn = (By.CSS_SELECTOR, '.mat-form-field-infix.ng-tns-c11-20 > input')
 
+    #Локатор кнопки "След" в гриде для переключения на другую страницу со списком назначений
+BT_next = (By.XPATH, '//*[@id="appointment"]/app-appointment/div/div[2]/div/div/app-st-table/div/div/div[2]/div[5]/button')
+
+    #Локатор поля "Дата назначения"
+FD_date_purpose = (By.XPATH, '//*[@id="mat-input-20"]')
+
+    #Локатор кнопки календаря поля "Дата назначения"
+BT_date_purpose = (By.XPATH, '//*[@id="appointmentAdding"]/appointment-add/div[1]/div/div/mat-card/form/div[1]/div[1]/date-time/div/div[1]/st-date/mat-form-field/div/div[1]/div[2]/mat-datepicker-toggle/button')
+
+    #Локатор обязательности поля "Дата назначения"
+OB_date_purpose = (By.CSS_SELECTOR, '.mat-form-field-ripple.ng-tns-c11-29')
 
 
-#=========================Локаторы блока/формы "Рецепты" в ТАП========================================================
+
+#=====================================Локаторы блока/формы "Рецепты" в ТАП==============================================
 
 
     #Локатор кнопки "Добавить"
@@ -200,7 +228,7 @@ FD_adress = (By.XPATH, '//*[@id="mat-chip-list-1"]/div/input')
     #Локатор крестика очистки поля "Адрес доствки"
 BT_clear_adress = (By.XPATH, '//*[@id="appointmentRecipeForm"]/div/div/div/mat-card/form/div[5]/div/st-address/div/div[1]/mat-form-field/div/div[1]/div[2]/span/button')
 
-    #
+    #Локатор элементов внутри поля "Адрес доставки"
 FD_adress_text = (By.CSS_SELECTOR, '.mat-chip-list-wrapper > mat-chip')
 
     #Локатор текста ошибки поля "Адрес доставки" когда не заполнено
@@ -218,9 +246,6 @@ BT_date = (By.CSS_SELECTOR, '.mat-form-field-suffix.ng-tns-c11-47.ng-star-insert
     #Локатор обязательности поля "Дата выписки"
 OB_date = (By.CSS_SELECTOR, '.mat-form-field-ripple.ng-tns-c11-47')
 
-    #Локатор кнопки числа даты начала в календаре (Выбор числа в календаре, указав value = 12 например)
-CL_date = (By.CSS_SELECTOR, '.mat-calendar-body-cell-content.mat-focus-indicator')
-
     #Локатоп поля "Врач"
 FD_doctor_recipe = (By.XPATH, '//*[@id="mat-input-33"]')
 
@@ -229,3 +254,27 @@ OB_doctor_recipe = (By.XPATH, '//*[@id="appointmentRecipeForm"]/div/div/div/mat-
 
     #Локатор крестика очистки поля "Врач"
 BT_clear_doctor_recipe = (By.CSS_SELECTOR, '.mat-form-field-suffix.ng-tns-c11-45.ng-star-inserted > div > button')
+
+    #Локатор поля "Источник финансирования"
+FD_source_of_financing = (By.XPATH, '//*[@id="mat-input-27"]')
+
+    #Локатор поля "Процент оплаты"
+FD_percentage_of_payment = (By.XPATH, '//*[@id="mat-input-28"]')
+
+    #Локатор поля "Тип формы"
+FD_type_form = (By.XPATH, '//*[@id="mat-input-29"]')
+
+    #Локатор поля "Срок действия"
+FD_period_of_validity = (By.XPATH, '//*[@id="mat-input-30"]')
+
+    #Локатор радиокнопки "Электронный"
+CH_electronic_recipe = (By.XPATH, '//*[@id="mat-radio-18-input"]')
+
+    #Локатор радиокнопки "Бумажный"
+CH_paper_recipe = (By.XPATH, '//*[@id="mat-radio-17-input"]')
+
+    #Локатор кнопки "Отменить" в гриде рецептов
+BT_cancel_recipe = (By.CSS_SELECTOR, '.mat-mdc-cell.mdc-data-table__cell.cdk-cell.cdk-column-cancelButton.mat-column-cancelButton.appointment__row.appointment__row--edit.ng-star-inserted')
+
+    #Локатор текста в гриде рецептов
+CL_crid_recipe_text = (By.CSS_SELECTOR, '.no-data-to-display.substrate-block.divide-border-bottom.ng-star-inserted')

@@ -4,7 +4,65 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ea1d419-07eb-418a-ad25-669c41a7981d" name="Changes" comment="" />
+    <list default="true" id="4ea1d419-07eb-418a-ad25-669c41a7981d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/autoTests.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/01f05a1c-328d-45ea-bc6f-bd288fbd8806-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/022d3ebd-4a7c-4d9b-9ee6-d12fb7ecaa36-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/0da1bb83-0674-4550-87ee-58d70f3fb0b0-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/15c79fdd-6b1e-482f-bb5f-2fd85148a824-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/161e44bb-0847-487d-b751-93748e0ec824-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/195f6af1-d215-4105-a289-d2751230f371-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/19eb9e27-4c39-4332-9f09-38c96be22b91-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1b9dcf49-f851-4ef5-8a16-be878600dd26-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/21504bb7-049e-4e6c-98d6-dd969217c2c6-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/26edc3f1-4d99-4311-874a-a0b7c63451f7-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/2a421039-8219-48df-8291-c90a6bbd3615-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3170b9c4-d44e-49a3-ab6f-0b538bcf6d52-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3371504f-601f-42c8-825c-47be9dfed587-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3a1cc5df-1c2b-40b2-b1fd-00158c96c459-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3cbe3292-2ee0-44ef-8a00-ef5a796688c6-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/40216cbe-2aef-4a00-8538-81488f75098b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/429e447b-dd20-4df4-9835-a1572f7f58e9-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/532a591d-48fa-4e5f-9bf3-b4e1328b6fe8-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5678c95c-9ffd-4738-bc75-bb6fe8d6dbc8-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/574ca585-3089-463d-a216-26d28da95a00-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/587521c0-415f-48d1-9641-d04b3fdb9586-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/60791858-fc92-44c2-8f01-b1dfc4120a6e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/62fa7aac-ddff-476e-8654-1592fa5edb35-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/6afeb8cf-d731-4a53-a859-9843dd6a539c-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/71ac674e-8fd3-4dad-9489-e4029fb338eb-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/72b2d5b1-2930-4f12-8411-af7dc9736d7a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7750fe26-251a-42c7-8374-12d113e23247-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/78b01117-c180-4e83-9b2b-db38a6466608-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/85b4752b-ed92-4cba-95b0-d1bce1f72964-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8ba9a82f-7883-4c10-890b-1a78250fd1bc-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8d5c80ad-9a89-46af-bfc1-23b9b50b127e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9418b995-46f2-413a-85fe-cb6394c572a7-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/967cec60-809c-4169-bea5-1cfe63d1b2c7-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a97179a1-bc08-427c-949f-a81c24b1ad6d-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a97fbe17-1593-485b-8ff1-3ada1024dc03-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/aa299061-f84a-40bf-ac05-3b3866fcd3b7-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b0037400-f00f-48a4-a47c-12225e9e8741-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b01d8685-ad24-48e8-b652-05d0d471c61c-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/bb433c0c-e3e2-4374-946c-f38b630f9e66-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c1f1e0c2-4880-4967-8181-7c5937847378-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/cfe09dd4-f059-429c-a369-0a3cf7f75284-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d1a25433-7da8-428c-beee-2da18d09c3ff-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d2fe0542-f45c-4bd3-94fe-c48fdd6a9b98-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/dde302af-fd34-40d9-b9b8-12a1d8aba057-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ded24b61-b898-49f0-b209-98591654c26a-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e0f35586-175e-42ba-8360-9a20e14b370f-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e12ea62a-d8eb-4b38-aa45-295a023dd008-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f01a9a40-072d-466c-a49b-a22fdb6edb56-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f9076715-6dd1-4b77-8a63-e33a0f45c8c9-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoTests/checks/formChecks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoTests/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/autoTests/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoTests/coloram.py" beforeDir="false" afterPath="$PROJECT_DIR$/autoTests/coloram.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoTests/function.py" beforeDir="false" afterPath="$PROJECT_DIR$/autoTests/function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoTests/path.py" beforeDir="false" afterPath="$PROJECT_DIR$/autoTests/path.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoTests/test_TAP.py" beforeDir="false" afterPath="$PROJECT_DIR$/autoTests/test_TAP.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,8 +79,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/allure-results/587521c0-415f-48d1-9641-d04b3fdb9586-result.json" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/autoTests/README.md" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/autoTests/colorama.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/autoTests/checks/formChecks.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/autoTests/coloram.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/autoTests/function.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/autoTests/path.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/autoTests/test_TAP.py" root0="SKIP_INSPECTION" />
@@ -34,12 +94,17 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2eapk2CbwHCraaroZDSEhn3KlWz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Python tests.Python tests for .executor": "Run",
     "Python tests.pytest for test_TAP.test_10_case_616.executor": "Run",
     "Python tests.pytest for test_TAP.test_11_case_611.executor": "Run",
@@ -59,7 +124,13 @@
     "Python tests.pytest for test_TAP.test_23_cases_602.executor": "Run",
     "Python tests.pytest for test_TAP.test_24_cases_592.executor": "Run",
     "Python tests.pytest for test_TAP.test_25_cases_592.executor": "Run",
+    "Python tests.pytest for test_TAP.test_25_cases_593.executor": "Run",
+    "Python tests.pytest for test_TAP.test_26_cases_631.executor": "Run",
+    "Python tests.pytest for test_TAP.test_27_cases_600.executor": "Run",
+    "Python tests.pytest for test_TAP.test_28_cases_612.executor": "Run",
+    "Python tests.pytest for test_TAP.test_29_cases_667.executor": "Run",
     "Python tests.pytest for test_TAP.test_2_cases_create_recipe.executor": "Run",
+    "Python tests.pytest for test_TAP.test_30_cases_662.executor": "Run",
     "Python tests.pytest for test_TAP.test_3_cases_597.executor": "Run",
     "Python tests.pytest for test_TAP.test_4_cases_629.executor": "Run",
     "Python tests.pytest for test_TAP.test_5_cases_595.executor": "Run",
@@ -73,6 +144,7 @@
     "Python.python -m venv venv.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/project/autoTests"
   },
@@ -83,8 +155,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\project\autoTests\allure-results" />
+      <recent name="C:\project\autoTests\autoTests\checks" />
       <recent name="C:\project\autoTests\autoTests" />
+      <recent name="C:\project\autoTests\allure-results" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -92,8 +165,8 @@
       <command value="pip install -r requirements.txt" />
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_TAP.test_25_cases_593">
-    <configuration name="pytest for test_TAP.test_1_cases_create_purpose" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for test_TAP.test_30_cases_662">
+    <configuration name="pytest for test_TAP.test_27_cases_600" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="autoTests" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,11 +179,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_TAP.test_1_cases_create_purpose&quot;" />
+      <option name="_new_target" value="&quot;test_TAP.test_27_cases_600&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_TAP.test_24_cases_592" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_TAP.test_28_cases_612" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="autoTests" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -123,11 +196,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_TAP.test_24_cases_592&quot;" />
+      <option name="_new_target" value="&quot;test_TAP.test_28_cases_612&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_TAP.test_25_cases_592" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_TAP.test_29_cases_667" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="autoTests" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,11 +213,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_TAP.test_25_cases_592&quot;" />
+      <option name="_new_target" value="&quot;test_TAP.test_29_cases_667&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_TAP.test_25_cases_593" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_TAP.test_30_cases_662" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="autoTests" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -157,11 +230,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_TAP.test_25_cases_593&quot;" />
+      <option name="_new_target" value="&quot;test_TAP.test_30_cases_662&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_TAP.test_7_cases_677" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_TAP.test_8_cases_649" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="autoTests" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,24 +247,24 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_TAP.test_7_cases_677&quot;" />
+      <option name="_new_target" value="&quot;test_TAP.test_8_cases_649&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.pytest for test_TAP.test_1_cases_create_purpose" />
-      <item itemvalue="Python tests.pytest for test_TAP.test_24_cases_592" />
-      <item itemvalue="Python tests.pytest for test_TAP.test_25_cases_592" />
-      <item itemvalue="Python tests.pytest for test_TAP.test_25_cases_593" />
-      <item itemvalue="Python tests.pytest for test_TAP.test_7_cases_677" />
+      <item itemvalue="Python tests.pytest for test_TAP.test_27_cases_600" />
+      <item itemvalue="Python tests.pytest for test_TAP.test_28_cases_612" />
+      <item itemvalue="Python tests.pytest for test_TAP.test_29_cases_667" />
+      <item itemvalue="Python tests.pytest for test_TAP.test_30_cases_662" />
+      <item itemvalue="Python tests.pytest for test_TAP.test_8_cases_649" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_TAP.test_25_cases_593" />
-        <item itemvalue="Python tests.pytest for test_TAP.test_7_cases_677" />
-        <item itemvalue="Python tests.pytest for test_TAP.test_25_cases_592" />
-        <item itemvalue="Python tests.pytest for test_TAP.test_24_cases_592" />
-        <item itemvalue="Python tests.pytest for test_TAP.test_1_cases_create_purpose" />
+        <item itemvalue="Python tests.pytest for test_TAP.test_30_cases_662" />
+        <item itemvalue="Python tests.pytest for test_TAP.test_29_cases_667" />
+        <item itemvalue="Python tests.pytest for test_TAP.test_28_cases_612" />
+        <item itemvalue="Python tests.pytest for test_TAP.test_27_cases_600" />
+        <item itemvalue="Python tests.pytest for test_TAP.test_8_cases_649" />
       </list>
     </recent_temporary>
   </component>
@@ -223,5 +296,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

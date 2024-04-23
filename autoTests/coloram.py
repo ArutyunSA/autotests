@@ -14,6 +14,7 @@ def step(message):
 
 def true_step(message):
     print(f"{Fore.GREEN}{message}{Style.RESET_ALL}")
+    pass
 def false_step(message):
     print(f"{Fore.RED}{message}{Style.RESET_ALL}")
 

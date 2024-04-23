@@ -1,14 +1,6 @@
-import dbm
+#==============================================Автотесты ТАП============================================================
 import time
-import pytest
-import testit
-from path import *
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium import webdriver
-from coloram import *
+from autoTests.checks.formChecks import *
 from function import *
 
 
@@ -31,15 +23,15 @@ def test_1_cases_create_purpose():
 
     # Ввожу в поле название препарата
     f.send_keys(FD_drug, 'Хлоргексидин, Хлоргексидин, р-р д/наружн. прим., 0.05 %,1000 мл')
-    time.sleep(4)
+    time.sleep(1)
 
     # Выбираю и кликаю по первому элементу выпадающего списка поля "Препарат"
     f.click_element(LT)
-    time.sleep(4)
+    time.sleep(3)
 
     #Кликаю кнопку "Подписать"
     f.click_element(BT_signature_path)
-    time.sleep(8)
+    time.sleep(6)
 
 
 #============================Сохранение рецепта в ТАП (Для вызова в других кейсах)======================================
@@ -182,16 +174,16 @@ def test_4_cases_629():
 
     step('Шаг-5: Нажать кнопку "Сохранить"')
     f.click_element(BT_save_cancel)
-    time.sleep(8)
+    time.sleep(4)
     if f.text(ST_purpose) == "Отменено":
         true_step('ОР: Назначение перешло в статус "Отменено"')
     else:
         false_step('Ошибка: статус назначения не изменился на "Отменено"')
 
     step('Шаг-6: Проверить, что чек-бокс "Резистентность к ЛС" выбран, поле "Комментарий" сохранено')
-    if f.text(FD_comments) == text and f.disabled(FD_comments):
+    if f.atribut(FD_comments) == text and f.disabled(FD_comments) and f.disabled(CH_rez_true):
         true_step('ОР: Чек-бокс установлен, поле сохранено верно. Недоступны для редактирования')
-        if f.text(FD_comments) != text:
+        if f.atribut(FD_comments) != text:
             false_step('Ошибка: Поле "Комментарий" содержит некорректный текст')
         if f.enabled(FD_comments):
             false_step('Ошибка: Чек-бокс или поле доступны для редактирования')
@@ -459,17 +451,14 @@ def test_8_cases_649():
 
     step('Шаг 3: Нажать кнопку "Подписать"')
     f.click_element(BT_signature_path)
-    time.sleep(10)
+    time.sleep(4)
     if f.text(ST_purpose) == 'Подписано':
         true_step('ОР: - Назначение сохранилось со статусом "Подписано"')
     else:
         false_step('Ошибка: Статус назначения отображается некорректно')
 
     step('Шаг 4: Проверить, что подписанное назначение отображается в списке назначений со статусом "Подписано"')
-    if f.text(ST_purpose_grid) == 'Подписано':
-        true_step('ОР: - Назначение отображается в списке со статусом "Подписано"')
-    else:
-        false_step('Ошибка: Статус назначения в гриде отображается некорректно')
+    f.getStateGrid(ST_purpose_grid, BT_next, 'Подписано')
 
 
 #=======================test-cases/609 Валидация поля "Врач" при создании назначения лекарственного препарата===========
@@ -1429,7 +1418,7 @@ def test_19_cases_601():
         false_step('Ошибка: поле не очистилось')
 
     step('Шаг 5: Нажать кнопку "Сохранить"')
-    f.click_element(BT_save)
+    f.click_element(BT_save_purpose)
     time.sleep(2)
     if f.backColor(OB_details) == 'rgba(255, 82, 82, 1)' and f.text(ER) == 'Не удалось сохранить назначение':
         true_step('ОР: Появляется уведомление о том, что не удалось добавить назначение, поле "Детализация" подсвечено красным')
@@ -1481,7 +1470,7 @@ def test_20_cases_605():
         false_step('Ошибка: Поле не очищено')
 
     step('Шаг 5: Нажать кнопку "Сохранить"')
-    f.click_element(BT_save)
+    f.click_element(BT_save_purpose)
     time.sleep(2)
     if f.backColor(OB_unit) == 'rgba(255, 82, 82, 1)' and f.text(ER) == 'Не удалось сохранить назначение':
         true_step('ОР: Появляется уведомление о том, что не удалось добавить назначение, поле "Детализация" подсвечено красным')
@@ -1577,7 +1566,7 @@ def test_22_cases_603():
         false_step('Ошибка: Поле не очищено')
 
     step('Шаг 5: Нажать кнопку "Сохранить"')
-    f.click_element(BT_save)
+    f.click_element(BT_save_purpose)
     time.sleep(2)
     if f.backColor(OB_perCourse) == 'rgba(255, 82, 82, 1)' and f.text(ER) == 'Не удалось сохранить назначение':
         true_step('ОР: Появляется уведомление о том, что не удалось добавить назначение, поле "Детализация" подсвечено красным')
@@ -1629,7 +1618,7 @@ def test_23_cases_602():
         false_step('Ошибка: Поле не очищено')
 
     step('Шаг 5: Нажать кнопку "Сохранить"')
-    f.click_element(BT_save)
+    f.click_element(BT_save_purpose)
     time.sleep(2)
     if f.backColor(OB_way) == 'rgba(255, 82, 82, 1)' and f.text(ER) == 'Не удалось сохранить назначение':
         true_step('ОР: Появляется уведомление о том, что не удалось добавить назначение, поле "Детализация" подсвечено красным')
@@ -1719,8 +1708,7 @@ def test_24_cases_592():
         false_step('Ошибка: Поле не очистилось или очистилось некорректно')
 
 
-
-#==========================test-cases/593 Заполнение полей рецепта. Валидация поля "Дата выписки"===============================
+#=========================test-cases/593 Заполнение полей рецепта. Валидация поля "Дата выписки"========================
 def test_25_cases_593():
     case_name('Заполнение полей рецепта. Валидация поля "Дата выписки"')
     #Перехожу по ссылке в ТАП
@@ -1824,7 +1812,287 @@ def test_25_cases_593():
         false_step('Ошибка: Поле "Дата начала" заполнилось некорректно')
 
 
+#=====test-cases/631 Проверка возможности редактирования назначения лекарственного препарата в статусе "Подписано"======
+def test_26_cases_631():
+    case_name('Проверка возможности редактирования назначения лекарственного препарата в статусе "Подписано"')
+    browser.get(url_TAP)
+    browser.implicitly_wait(20)
+    f = ContractsPage(browser)
 
+    step('Шаг 1: Нажать в списке назначений на назначение лекарственного препарата в статусе "Подписано"')
+    f.clickStateGrid(ST_all_purpose_grid, BT_next, 'Подписано')
+    if f.enabled(FM_purpose):
+        true_step('ОР: Открывается форма, аналогичная форме создания назначения')
+    else:
+        false_step('Ошибка: Форма создания назначения недоступна')
+    time.sleep(5)
+
+    step('Шаг 2: Проверить, что все обязательные поля заполнены и недоступны для редактирования')
+    OB_form_purpose_signed()
+
+
+#=======test-cases/600 Проверка обязательности поля "Врач" при создании назначения лекарственного препарата=============
+def test_27_cases_600():
+    case_name('Проверка обязательности поля "Врач" при создании назначения лекарственного препарата')
+    #Перехожу по ссылке в ТАП
+    browser.get(url_TAP)
+    browser.implicitly_wait(20)
+    f = ContractsPage(browser)
+
+    step('Шаг 1: Нажать кнопку "Добавить"')
+    f.click_element(BT_add_purpose)
+    time.sleep(3)
+    if f.enabled(FM_purpose):
+        true_step('ОР: - Открывается форма ввода данных нового назначения')
+    else:
+        false_step('Ошибка: Форма назначения недоступна')
+    if f.enabled(CL_medicament):
+        true_step('    - По умолчанию открывается вкладка "Лекарственный препарат"')
+    else:
+        false_step('Ошибка: Не выбрана вкладка "Лекарственный препарат" по умолчанию')
+
+    step('Шаг 2: Заполнить поле препарат для добавления назначения')
+    #Кликаю по полю "Препарат"
+    f.click_element(FD_drug)
+    f.send_keys(FD_drug, 'Хлоргексидин, Хлоргексидин, р-р д/наружн. прим., 0.05 %,1000 мл')
+    time.sleep(1)
+    f.click_element(LT)
+    time.sleep(2)
+    if f.atribut(FD_drug) != '':
+        true_step('ОР: Поле заполнено')
+    else:
+        false_step('Ошибка: Поле не заполнено')
+
+    step('Шаг 3: Проверить, что все обязательные поля заполнены')
+    OB_form_purpose() #Вызываю функцию проверки обязательных полей формы
+
+    step('Шаг 4: Очистить поле "Врач" нажатием на крестик')
+    f.click_element(BT_clear_doctor)
+    time.sleep(1)
+    f.tab(FD_doctor)
+    if f.atribut(FD_doctor) == '':
+        true_step('ОР: Поле очищено')
+    else:
+        false_step('Ошибка: Поле не очистилось')
+
+    step('Шаг 5: Нажать кнопку "Сохранить"')
+    f.click_element(BT_save_purpose)
+    time.sleep(1)
+    if f.text(ER) == 'Не удалось сохранить назначение' and f.backColor(OB_doctor) == 'rgba(255, 82, 82, 1)':
+        true_step('ОР: Появляется уведомление "Не удалось сохранить назначение", поле "Врач" подсвечено красным')
+    else:
+        false_step('Ошибка: отсутствует уведомление или обязательность поля')
+
+
+#===========test-cases/612 Валидация поля "Путь введения" при создании назначения лекарственного препарата==============
+def test_28_cases_612():
+    case_name('Валидация поля "Путь введения" при создании назначения лекарственного препарата')
+    #Перехожу по ссылке в ТАП
+    browser.get(url_TAP)
+    browser.implicitly_wait(20)
+    f = ContractsPage(browser)
+
+    step('Шаг 1: Нажать кнопку "Добавить"')
+    f.click_element(BT_add_purpose)
+    time.sleep(3)
+    if f.enabled(FM_purpose):
+        true_step('ОР: - Открывается форма ввода данных нового назначения')
+    else:
+        false_step('Ошибка: Форма назначения недоступна')
+    if f.enabled(CL_medicament):
+        true_step('    - По умолчанию открывается вкладка "Лекарственный препарат"')
+    else:
+        false_step('Ошибка: Не выбрана вкладка "Лекарственный препарат" по умолчанию')
+
+    step('Шаг 2: Нажать на поле "Путь введения" для заполнения')
+    f.click_element(FD_way)
+    time.sleep(1)
+    if f.enabled(LT_Way) and f.backColor(OB_way) == 'rgba(255, 82, 82, 1)':
+        true_step('ОР: -Поле подсвечено красным, как обязательное для заполнения')
+        true_step('    -Открыт выпадающий список путей введения')
+    else:
+        false_step('Ошибка: Отсутсвует обязательность поля или выпадающий список')
+
+    step('Шаг 3: Выбрать значение из выпадающего списка')
+    f.click_element(LT)
+    time.sleep(1)
+    if f.atribut(FD_way) != '':
+        true_step('ОР: Поле заполнено')
+    else:
+        false_step('Ошибка: Поле не заполнено')
+
+    step('Шаг 4: Очистить поле нажатием на крестик')
+    f.click_element(BT_clear_way)
+    time.sleep(1)
+    if f.enabled(LT_Way) and f.backColor(OB_way) == 'rgba(255, 82, 82, 1)':
+        true_step('ОР: -Поле подсвечено красным, как обязательное для заполнения')
+        true_step('    -Открыт выпадающий список путей введения')
+    else:
+        false_step('Ошибка: Отсутсвует обязательность поля или выпадающий список')
+
+    step('Шаг 5: Начать заполнять поле буквами')
+    f.send_keys(FD_way, 'Местно')
+    time.sleep(1)
+    if f.text(LT) == 'Местно':
+        true_step('ОР: Происходит фильтрация значений в выпадающем списке путей введения')
+    else:
+        false_step('Ошибка: Фильтрация не происходит')
+
+    step('Шаг 6: Выбрать значение из выпадающего списка')
+    f.click_element(LT)
+    time.sleep(1)
+    f.tab(FD_way)
+    if f.atribut(FD_way) == 'Местно':
+        true_step('ОР: Поле заполнено')
+    else:
+        false_step('Ошибка: Поле не заполнено или заполнено некорректно')
+
+    step('Шаг 7: Очистить поле с клавиатуры')
+    f.clear_delete(FD_way)
+    time.sleep(1)
+    if f.enabled(LT_Way) and f.backColor(OB_way) == 'rgba(255, 82, 82, 1)':
+        true_step('ОР: -Поле подсвечено красным, как обязательное для заполнения')
+        true_step('    -Открыт выпадающий список путей введения')
+    else:
+        false_step('Ошибка: Отсутсвует обязательность поля или выпадающий список')
+
+    step('Шаг 8: Заполнить поле символами и нажать на пустое место')
+    f.send_keys(FD_way, '!@&^%$')
+    f.tab(FD_way)
+    time.sleep(1)
+    if f.backColor(OB_way) == 'rgba(255, 82, 82, 1)':
+        true_step('ОР: -Поле подсвечено красным, как обязательное для заполнения')
+    else:
+        false_step('Ошибка: Отсутсвует обязательность поля или выпадающий список')
+
+    step('Шаг 9: Заполнить поле цифрами и нажать на пустое место')
+    f.send_keys(FD_way, '12345')
+    f.tab(FD_way)
+    time.sleep(1)
+    if f.backColor(OB_way) == 'rgba(255, 82, 82, 1)':
+        true_step('ОР: -Поле подсвечено красным, как обязательное для заполнения')
+    else:
+        false_step('Ошибка: Отсутсвует обязательность поля или выпадающий список')
+
+
+#=========test-cases/667 Создание назначения со значением поля "Дата назначения" равным больше текущей даты=============
+def test_29_cases_667():
+    case_name('Создание назначения со значением поля "Дата назначения" равным больше текущей даты')
+    browser.get(url_TAP)
+    browser.implicitly_wait(20)
+    f = ContractsPage(browser)
+
+    step('Шаг 1: Нажать кнопку "Добавить"')
+    f.click_element(BT_add_purpose)
+    time.sleep(3)
+    if f.enabled(FM_purpose):
+        true_step('ОР: - Открывается форма ввода данных нового назначения')
+    else:
+        false_step('Ошибка: Форма назначения недоступна')
+    if f.enabled(CL_medicament):
+        true_step('    - По умолчанию открывается вкладка "Лекарственный препарат"')
+    else:
+        false_step('Ошибка: Не выбрана вкладка "Лекарственный препарат" по умолчанию')
+
+    step('Шаг 2: Проверить, что поле "Дата назначения" заполнено автоматически текущей датой')
+    if f.atribut(FD_date_purpose) == DT.strftime('%d.%m.%Y'):
+        true_step('ОР: Поле "Дата назначения" по умолчанию заполнена текущей датой')
+    else:
+        false_step('Ошибка: Значение в поле "Дата назначения" НЕ содержит текущую дату')
+
+    step('Шаг 3: Очистить поле "Дата назначения" с клавиатуры')
+    f.clear_delete(FD_date_purpose)
+    f.tab(FD_date_purpose)
+    time.sleep(1)
+    if f.atribut(FD_date_purpose) == '' and f.backColor(OB_date_purpose) == 'rgba(255, 82, 82, 1)':
+        true_step('ОР: Поле очищается и подсвечено красным как обязательное')
+    else:
+        false_step('Ошибка: Поле не очистилось или отсутствует обязательность')
+
+    step('Шаг 4: Нажать на календарь и выбрать дату назначения больше текущей')
+    f.click_element(BT_date_purpose)
+    time.sleep(1)
+    day = (DT + timedelta(days=1)).strftime('%d')
+    f.searchDay(CL_date, day)
+    time.sleep(2)
+
+    step('Шаг 5: Заполнить  обязательные поля')
+    f.send_keys(FD_drug, 'Хлоргексидин, Хлоргексидин, р-р д/наружн. прим., 0.05 %,1000 мл')
+    time.sleep(1)
+    f.click_element(LT)
+    time.sleep(2)
+    OB_form_purpose()
+
+    step('Шаг 6: Нажать кнопку "Сохранить"')
+    f.click_element(BT_save_purpose)
+    time.sleep(2)
+    if f.text(ER) == 'Не удалось сохранить назначение':
+        true_step('ОР: Появляется уведомление "Не удалось сохранить назначение"')
+    else:
+        false_step('Ошибка: отсутствует уведомление об ошибке')
+
+    step('Шаг 7: Проверить в гриде, что назначение не было создано')
+    f.getNullGrid(ST_purpose_grid, BT_next, 'Редактируется')
+
+
+#=========================test-cases/662 Отмена рецепта до подписания========================
+def test_30_cases_662():
+    case_name('Отмена рецепта до подписания')
+    #Перехожу по ссылке в ТАП
+    browser.get(url_TAP)
+    browser.implicitly_wait(20)
+    f = ContractsPage(browser)
+
+    step('Шаг 1: Выбрать назначение из списка или создать новое')
+    test_1_cases_create_purpose()
+    true_step('ОР: - Назначение выбрано/Создано')
+    if f.enabled(BT_add_recipe):
+        true_step('    - Кнопка "Добавить" в блоке "Рецепты" стала доступна')
+    else:
+        false_step('Ошибка: Кнопка добавить в блоке "Рецепты" недоступна')
+
+    step('Шаг 2: Нажать на кнопку "Добавить" в блоке "Рецепты"')
+    f.click_element(BT_add_recipe)
+    time.sleep(4)
+    if f.enabled(FM_recipe):
+        true_step('ОР: Открылась форма создания рецептов')
+    else:
+        false_step('Ошибка: Форма создания рецепта недоступна')
+
+    step('Шаг 3: Выбрать чек-бокс "Коммерческий"')
+    f.click_element(CH_comm)
+    time.sleep(2)
+    if f.enabled(CH_comm):
+        true_step('ОР: Чек-бокс выбран')
+    else:
+        false_step('Ошибка: Чек- бокс не выбран')
+
+    step('Шаг 4: Проверить автоматическое заполнение обязательных полей и доступность')
+    OB_form_recipe_commerchesky()
+
+    step('Шаг 5: Установить признак "Электронный"')
+    f.click_element(CH_electronic_recipe)
+    if f.enabled(CH_electronic_recipe):
+        true_step('ОР: Признак установлен')
+    else:
+        false_step('Ошибка: Радиокнопка не выбрана')
+
+    step('Шаг 6: Нажать на кнопку "Сохранить"')
+    f.click_element(BT_save_recipe)
+    time.sleep(3)
+    if f.text(ER) == 'Рецепт успешно сохранен':
+        true_step('ОР: Рецепт сохранен')
+    else:
+        false_step('Ошибка: Отсутствует сообщение об успешном сохранении')
+
+    step('Шаг 7: У рецепта нажать кнопку "Отменить"')
+    time.sleep(6)
+    f.click_element(BT_cancel_recipe)
+    time.sleep(3)
+    if f.text(CL_crid_recipe_text) == 'Нет данных для отображения':
+        true_step('ОР: Рецепт удален')
+    else:
+        false_step('Ошибка: Рецепт отображается в гриде')
 
 
 
