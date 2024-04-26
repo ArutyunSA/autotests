@@ -5,13 +5,128 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ea1d419-07eb-418a-ad25-669c41a7981d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/autoTests/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/01716f36-46a8-4c87-9a9d-ec93d6253477-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/05e5daef-f560-4460-9e4f-afb66170830e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/0775cb6e-2202-4569-b285-448a820b200d-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/08ef24bb-a4f9-4cea-925b-63eb0ffd62a6-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/0a888453-a24e-4054-bcad-01ac29fd7a97-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/0b0af620-dd99-4fe8-82e6-f7dbd4314d71-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/0bd3b3ac-f8be-4d82-b125-843ee1ac264c-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/0e28220d-3bca-4655-8d2a-aa00aba79963-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/10d5f2d5-1f8b-4ff3-a42e-8b031f55e8b5-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/13ca14c0-95e2-4eac-bb80-1748d363423d-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1db72c03-a273-4508-b39a-c0aec43f9412-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/200ed55d-bf4e-40a6-aa92-e91943cdd9b7-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/20e29595-47a0-4984-a45e-fa8c68aee824-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/21066b2f-3d5f-4209-99c1-5ff744f8e145-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/24ae2001-d9ea-4f23-8040-57f7089a12ca-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/275ad0f8-20a7-497b-bf1c-6d45cbd76e10-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/280674b6-3887-4758-9eb2-9276ad0fe603-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/289df065-65b6-4c33-bbe1-79ab89f9d4d2-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/2e03470b-c938-4c3e-ad8d-d7868bf9a959-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/308a998b-dadd-40a7-a7e3-d73a91b851b4-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/30f9b72c-7458-4cd2-90f3-6172df5b9276-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/34fde826-a29d-4557-827e-1982093494c5-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/35446ba4-ee06-4c09-b272-bd6b98588ceb-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/371a7184-7e71-4a79-b2ee-6fe02eef37e4-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3c7d0d33-c021-491c-a1aa-52c605e83b3e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3ca30426-1260-4598-a8ac-6a197c33d744-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3d8fd17d-bdff-45d9-9da4-f27fd7ad3a53-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3e2c3b0e-6e48-4294-8e2d-5811ad981814-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3fc7fe34-60ee-4f52-8098-b787f9ef2c2e-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/43854223-b232-4f59-bfb4-da08bb389163-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4470bf0f-2fc8-411b-ba15-e2dc26a55b99-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/44e4c67a-1f89-47bd-99aa-3e7896cba425-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/45d4da5b-f724-45a9-92af-f10aabec9955-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4695325e-fc13-4521-a220-127a856b6fc4-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/48420039-a8c3-4c5f-8458-1428ec80cb31-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/48ee99ea-84ce-4b7f-bda0-946e0130355a-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4a1224b2-f59a-4d66-b992-1a4818dfbbe2-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4d61c529-8820-4273-b95a-fc8459f9bc89-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4fdf24d1-4910-4320-a656-672fd4fb45fd-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/55ce0868-7140-4365-a876-ff7e005821e6-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/562fab2a-35b9-4e76-a57e-68c9433461fa-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/581cbac2-4335-4eba-9362-cfca33aaae98-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5a1d4da4-a275-41b4-9375-b273fcb1f97b-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5b21022c-041d-42e3-a7b2-bce7d8d4e31a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5c480264-27a1-4735-b234-146976633382-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5d29175b-825d-4e06-b8e2-1333f49f07e2-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5ec22283-d43b-49a8-adb5-faab8782e95c-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/622b665b-936a-4275-ade8-b84349b96dcf-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/645d2d98-2a14-4eea-aff7-fe9b732a4d49-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/64dcdea6-b747-4e39-938b-c259dec90cbe-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/65f50f49-b84c-4b7f-95ee-faf0227edac0-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/66c8eaa0-a3e7-4773-aef9-442831a5e432-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/729e14a5-6da6-47f9-add4-0f0acea98bcd-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7b5fa8c5-ad84-47cd-bdb2-63a84c47a3ce-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7d2d6462-98c5-4998-854e-ff90befd77dd-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8065eb18-7e91-4cf3-881a-51bb0401d408-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/84e5baf3-5d90-4c85-8965-486ab67cb458-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8917e20c-7008-465f-9634-096743f9e0ca-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8a3553ed-095d-4ba5-9531-0c254b41891a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8a7a6448-ff8d-4371-9624-e934b6b6d0ca-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8fe50756-a8ff-4d2b-8f6f-b52f9a3133af-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/953fe788-3908-4f3b-8d0a-778234b402a3-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/95584816-bede-4c0a-8153-0e51e1a0448d-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9ab2ba0e-2146-4293-b1e0-a138998b0f76-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9dc80727-07b3-444b-ac1b-201c6531f552-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9e96418a-2506-47c8-b1b0-4297b9409b2c-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a20e7676-7bd7-4de9-9a39-aa740f5830b7-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a2f76f2b-e03e-4978-80e8-fc23496c09cb-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a569f7c1-5884-431e-b6e2-866410fe066d-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/aad3844f-20f8-4918-bd75-709469397b5e-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/acc71a96-01b6-4d47-9ca9-b659331cfc34-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/afe7e552-cf59-46f3-866d-78ef947263b4-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b859454e-66cf-47cd-bc51-f3cd0da9d866-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/bf385972-3aa7-4722-afe7-b695e7c61fa8-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c26477a2-ce62-4d0e-9e9b-f05fba26d2a2-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c4d0bfb6-85c6-44dd-8bf5-5ab620bee6d2-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c80e11f1-35cd-46f5-b5e5-2ba91675964e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c80eb144-46b2-48f3-a853-538e3221e8e5-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c94ff46b-65aa-4dd7-86f2-506e8f1b805f-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d9cb4d2f-a8ae-4d99-93bd-f2bd058a273d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/df18dd46-2687-4e5a-920b-bf6c71c59132-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/df2bbf89-0770-40f0-8cc1-c8a37557fbf6-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e0489cc3-5875-41f2-a11f-746106da644c-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e4be0663-10db-4013-975c-770aaed0494d-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e516569c-1d3c-4c6a-9a0b-34f6bed64d92-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e6c63016-2f11-4b6e-8fd6-a6226761234c-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e77819dd-4fdc-45ee-8673-dc88b8349738-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e9ad097e-b055-4f6d-8b00-208b9a261972-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/eb01655d-4bc0-490a-995a-d6434b58a5cc-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ec1cbe4a-5fb5-4914-a235-ff146eff323f-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/eeb794fd-f73f-4884-9f5d-43d3e75cf622-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/efafad03-2b32-4a7f-ae5e-209d18ec0d0f-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f4af7811-e434-4f32-beea-e89b172620d3-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f882d5a5-e8a4-4c2a-affb-5ecb1ce7d1b0-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f973b45e-eb0d-43de-a6d6-33bccb3a70f9-attachment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/face0ccc-3de9-461a-aa1e-46a2357acecf-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/fad86a82-c9e9-43f4-b9b6-7b59391eeefc-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/fdb39226-f38c-4adc-a195-d7951b572412-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autotest/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autotest/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autotest/tests/checks/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autotest/tests/checks/formChecks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autotest/tests/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autotest/tests/config/coloram.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autotest/tests/config/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autotest/tests/config/function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autotest/tests/config/pathConfTest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoTests/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/autoTests/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoTests/checks/formChecks.py" beforeDir="false" afterPath="$PROJECT_DIR$/autoTests/checks/formChecks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoTests/function.py" beforeDir="false" afterPath="$PROJECT_DIR$/autoTests/function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoTests/path.py" beforeDir="false" afterPath="$PROJECT_DIR$/autoTests/path.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoTests/test_TAP.py" beforeDir="false" afterPath="$PROJECT_DIR$/autoTests/test_TAP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoTests/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoTests/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoTests/.idea/autoTests.iml" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/.idea/autoTests.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoTests/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoTests/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoTests/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoTests/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoTests/checks/formChecks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoTests/coloram.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoTests/function.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoTests/path.py" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/tests/path.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoTests/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoTests/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoTests/test_TAP.py" beforeDir="false" afterPath="$PROJECT_DIR$/autotest/tests/test_TAP.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +148,8 @@
     <setting file="file://$PROJECT_DIR$/autoTests/README.md" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/autoTests/checks/formChecks.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/autoTests/coloram.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/autoTests/config/conftest.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/autoTests/config/pathConfTest.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/autoTests/function.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/autoTests/path.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/autoTests/pytest.ini" root0="SKIP_INSPECTION" />
@@ -57,6 +174,11 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Python tests.Python tests for .executor": "Run",
+    "Python tests.pytest for autoTests.tests.test_TAP.test_32_cases_661.executor": "Run",
+    "Python tests.pytest for autotest.tests.test_TAP.test_32_cases_661.executor": "Run",
+    "Python tests.pytest for autotests.tests.test_TAP.test_32_cases_661.executor": "Run",
+    "Python tests.pytest for conftest.test_criptoPro.executor": "Run",
+    "Python tests.pytest for conftest.testcriptoPro.executor": "Run",
     "Python tests.pytest for function.test_skip.executor": "Run",
     "Python tests.pytest for test_TAP.test_10_case_616.executor": "Run",
     "Python tests.pytest for test_TAP.test_11_case_611.executor": "Run",
@@ -94,6 +216,7 @@
     "Python tests.pytest for test_TAP.test_8_cases_649.executor": "Run",
     "Python tests.pytest for test_TAP.test_9_case_609.executor": "Run",
     "Python tests.pytest in test_TAP.py.executor": "Run",
+    "Python.conftest.executor": "Run",
     "Python.python --version.executor": "Run",
     "Python.python -m venv venv.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -108,10 +231,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\project\autoTests\autoTests" />
-      <recent name="C:\project\autoTests\autoTests\tests" />
-      <recent name="C:\project\autoTests\autoTests\checks" />
-      <recent name="C:\project\autoTests\allure-results" />
+      <recent name="C:\project\autoTests\autotest" />
+      <recent name="C:\project\autoTests\autotest\tests" />
+      <recent name="C:\project\autoTests\autotest\tests\checks" />
+      <recent name="C:\project\autoTests\autotest\tests\config" />
+      <recent name="C:\project\autoTests\autotests\tests" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -119,25 +243,8 @@
       <command value="pip install -r requirements.txt" />
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_TAP.test_1_cases_create_purpose">
-    <configuration name="pytest for autoTests.test_TAP.test_1_cases_create_purpose" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="autoTests" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autoTests/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;autoTests.test_TAP.test_1_cases_create_purpose&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for autoTests.test_TAP.test_31_cases_636" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for test_TAP.test_32_cases_661">
+    <configuration name="pytest for autoTests.config.conftest" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="autoTests" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -150,7 +257,41 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;autoTests.test_TAP.test_31_cases_636&quot;" />
+      <option name="_new_target" value="&quot;autoTests.config.conftest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for autoTests.config.conftest.testcriptoPro" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="autoTests" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autoTests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;autoTests.config.conftest.testcriptoPro&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for autoTests.conftest.testcriptoPro" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="autoTests" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autoTests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;autoTests.conftest.testcriptoPro&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -171,88 +312,105 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for autoTests.test_TAP.test_32_cases_661" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for autotest.tests.test_TAP.test_1_cases_create_purpose" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="autoTests" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autoTests/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autotest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;autoTests.test_TAP.test_32_cases_661&quot;" />
+      <option name="_new_target" value="&quot;autotest.tests.test_TAP.test_1_cases_create_purpose&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for autoTests.tests.test_TAP.test_32_cases_661" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for autotest.tests.test_TAP.test_30_cases_662" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="autoTests" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autoTests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autotest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;autoTests.tests.test_TAP.test_32_cases_661&quot;" />
+      <option name="_new_target" value="&quot;autotest.tests.test_TAP.test_30_cases_662&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for function.test_skip" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for autotest.tests.test_TAP.test_32_cases_661" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="autoTests" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autoTests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autotest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;function.test_skip&quot;" />
+      <option name="_new_target" value="&quot;autotest.tests.test_TAP.test_32_cases_661&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_TAP.test_1_cases_create_purpose" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for autotest.tests.test_TAP.test_3_cases_597" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="autoTests" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autoTests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autotest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_TAP.test_1_cases_create_purpose&quot;" />
+      <option name="_new_target" value="&quot;autotest.tests.test_TAP.test_3_cases_597&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_TAP.test_32_cases_661" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="autoTests" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autotest/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_TAP.test_32_cases_661&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.pytest for autoTests.test_TAP.test_1_cases_create_purpose" />
-      <item itemvalue="Python tests.pytest for autoTests.test_TAP.test_31_cases_636" />
-      <item itemvalue="Python tests.pytest for autoTests.test_TAP.test_32_cases_661" />
-      <item itemvalue="Python tests.pytest for function.test_skip" />
-      <item itemvalue="Python tests.pytest for test_TAP.test_1_cases_create_purpose" />
+      <item itemvalue="Python tests.pytest for autotest.tests.test_TAP.test_1_cases_create_purpose" />
+      <item itemvalue="Python tests.pytest for autotest.tests.test_TAP.test_30_cases_662" />
+      <item itemvalue="Python tests.pytest for autotest.tests.test_TAP.test_32_cases_661" />
+      <item itemvalue="Python tests.pytest for autotest.tests.test_TAP.test_3_cases_597" />
+      <item itemvalue="Python tests.pytest for test_TAP.test_32_cases_661" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_TAP.test_1_cases_create_purpose" />
-        <item itemvalue="Python tests.pytest for autoTests.test_TAP.test_1_cases_create_purpose" />
-        <item itemvalue="Python tests.pytest for autoTests.test_TAP.test_32_cases_661" />
-        <item itemvalue="Python tests.pytest for function.test_skip" />
-        <item itemvalue="Python tests.pytest for autoTests.test_TAP.test_32_cases_661" />
+        <item itemvalue="Python tests.pytest for test_TAP.test_32_cases_661" />
+        <item itemvalue="Python tests.pytest for autotest.tests.test_TAP.test_32_cases_661" />
+        <item itemvalue="Python tests.pytest for autotest.tests.test_TAP.test_30_cases_662" />
+        <item itemvalue="Python tests.pytest for autotest.tests.test_TAP.test_1_cases_create_purpose" />
+        <item itemvalue="Python tests.pytest for autotest.tests.test_TAP.test_3_cases_597" />
       </list>
     </recent_temporary>
   </component>
